@@ -128,6 +128,9 @@ use libc::c_int;
 
 use crate::error::ErrorStack;
 
+#[cfg(test)]
+mod regression_test;
+
 #[macro_use]
 mod macros;
 
